@@ -1,8 +1,6 @@
 <?php
 require 'pair.php';
 
-$pair = cons(1, 2);
+$list = makeList(1, 2, 3, 4, 5);
 
-// var_dump($pair);
-echo car($pair); 
-echo cdr($pair); 
+echo toString($list);
